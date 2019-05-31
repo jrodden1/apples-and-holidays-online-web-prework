@@ -106,4 +106,5 @@ bbq_holiday_arr = []
       end
     end
   end
+bbq_holiday_arr
 end
