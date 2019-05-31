@@ -85,7 +85,7 @@ def all_supplies_in_holidays(holiday_hash)
         formatHoliday.map do |word|
           word.capitalize!
         end
-        formatHoliday.join(" ")
+        formatHoliday.join(",")
       else
         formatHoliday = holiday.to_s.capitalize!
       end
