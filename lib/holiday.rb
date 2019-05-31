@@ -29,7 +29,6 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
     if season == :winter
       s_hash.map do |holiday, supply_array|
         supply_array << supply
-
       end
     end
   end
