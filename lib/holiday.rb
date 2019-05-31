@@ -106,6 +106,7 @@ bbq_holiday_arr = []
           bbq_holiday_arr << holiday
         else
           puts "no bbq for you, #{holiday}!"
+        end
       end
     end
   end
