@@ -80,7 +80,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts "#{season.capitalize}:"
     s_hash.each do |holiday, supply_array|
       formatHoliday = ""
-      if holiday.to_s.includes?(" ") == true
+      if holiday.to_s.include?(" ") == true
         formatHoliday = holiday.split(" ")
         formatHoliday.map do |word|
           word.capitalize!
