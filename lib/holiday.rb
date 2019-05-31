@@ -82,7 +82,7 @@ def all_supplies_in_holidays(holiday_hash)
       formatHoliday = ""
       if holiday.to_s.include?("_") == true
         formatHoliday = holiday.to_s.split("_")
-        formatHoliday.map do |word|
+        formatHoliday = formatHoliday.map do |word|
           word.capitalize!
         end
         formatHoliday.join(" ")
