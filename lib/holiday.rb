@@ -81,7 +81,7 @@ def all_supplies_in_holidays(holiday_hash)
     s_hash.each do |holiday, supply_array|
       formatHoliday = ""
       if holiday.to_s.include?(" ") == true
-        formatHoliday = holiday.split(" ")
+        formatHoliday = holiday.to_s.split(" ")
         formatHoliday.map do |word|
           word.capitalize!
         end
